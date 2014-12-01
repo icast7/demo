@@ -41,7 +41,7 @@ public class TFTPSvcResource {
 		todos.addAll(TFTPdao.INSTANCE.getModel().values());
 		return todos;		
 	}	
-	//List for files
+	//List of files
 	@GET
 	@Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
 	public List<TFTPFile> getTodos(){

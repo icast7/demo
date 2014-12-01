@@ -10,7 +10,7 @@
   		</init-param>  		
   </servlet>
   <servlet-mapping>
-  		<servlet-name>TFTPService</servlet-name>
+  		<servlet-name>TFTP Service Demo</servlet-name>
   		<url-pattern>/rest/*</url-pattern>  		
   </servlet-mapping>
 </web-app>
